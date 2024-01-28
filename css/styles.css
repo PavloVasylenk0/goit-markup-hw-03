@@ -352,12 +352,9 @@ gap: 24px;
 
 
 
-
-
 .portfolio {
 background: #FFF;
-padding-top: 120px;
-padding-bottom: 120px;
+padding: 120px 0;
 }
 
 .portfolio-title {
@@ -367,7 +364,7 @@ padding-bottom: 120px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.02em;
-  text-transform: capitalize;
+
   margin-bottom: 72px;
 }
 
@@ -381,7 +378,7 @@ padding-bottom: 120px;
 }
 
 .portfolio-item {
-  padding: 32px 24px;
+
   width: calc((100% - 48px) / 3);
 
 }

@@ -260,14 +260,12 @@ padding: 32px 0;
   background-color: #f4f4fd;
   display: flex;
   gap: 24px;
-
 }
 
 .team-item {
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
   background: #fff;
-  width: calc((100% - 72px) / 4);
-
 }
 
 .team-titles {
@@ -294,6 +292,7 @@ padding: 32px 0;
 
 .team-picture {
  display: block;
+
 }
 
 
@@ -312,7 +311,7 @@ padding: 32px 0;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  
+
 }
 
 
